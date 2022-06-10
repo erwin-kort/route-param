@@ -1,0 +1,20 @@
+{
+  "name": "@erwin-kort/route-param",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "main": "./src/index.ts",
+  "eslintConfig": {
+    "extends": "plugin:@erwin-kort/base"
+  },
+  "devDependencies": {
+    "@erwin-kort/eslint-plugin": "github:erwin-kort/eslint-plugin#56332d0",
+    "@swc/core": "^1.2.198",
+    "@swc/jest": "^0.2.21",
+    "@types/jest": "^28.1.1",
+    "eslint": "^8.17.0",
+    "jest": "^28.1.1"
+  }
+}
